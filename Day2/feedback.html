@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .name {
+            background-color: darkblue;
+        }
+
+        #email {
+            font-style: italic;
+
+            background-color: #09c;
+        }
+
+        section label {
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="text"]{
+            background-color: yellow;
+        }
+    </style>
+    <title>feedback</title>
+</head>
+
+<body>
+    <form>
+        <section class="labels-only">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="name" ><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="" ><br><br>
+
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" class="" ></textarea><br><br>
+        </section>
+
+        <button type="submit" id="submit-button">Submit</button>
+    </form>
+</body>
+
+</html>
